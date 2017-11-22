@@ -5,6 +5,10 @@ node {
     sh '''java Welcome'''   
     echo "end of program"
      echo " I am inside demo"
+    dir('demo') {
+    // some block
+    }
+
     }
 
 
