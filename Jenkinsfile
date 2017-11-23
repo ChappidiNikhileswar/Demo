@@ -6,7 +6,7 @@ node {
     echo "end of program"
      echo " I am inside demo"
     dir('demo') {
-    // some block
+    
     }
 
     }
