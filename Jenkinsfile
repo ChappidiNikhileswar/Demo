@@ -5,10 +5,6 @@ node {
     sh '''java Hi'''   
     echo "end of program"
      echo " I am inside demo"
-    dir('demo') {
-    
-    }
-
     }
 
 
