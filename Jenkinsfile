@@ -1,8 +1,8 @@
 node {
     echo "This my first Jenkins"  
-    sh '''javac Hi.java'''
+    sh 'javac Hi.java'
     echo "compilation completed"
-    sh '''java Hi'''   
+    sh 'java Hi'   
     echo "end of program"
      echo " I am inside demo"
     }
