@@ -10,7 +10,7 @@
 node {
     checkout scm
     echo "This is my first node js"
-    sh 'node HelloNode.js'
+    sh 'node demo_fs.js'
     echo "end of program"
 }
 
