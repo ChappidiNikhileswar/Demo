@@ -1,4 +1,5 @@
 node {
+    checkout scm
     echo "This my first Jenkins"  
     sh 'javac Hi.java'
     echo "compilation completed"
